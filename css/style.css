@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrap_body {
+    width: 1440px;
+    margin: auto;
+}
+
+.wrapper {
+    padding-left: 145px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.header_top {
+    height: 100px;
+}
+
+.a-items-center {
+    align-items: center;
+}
+
+.header_top__grid {
+    column-gap: 141px;
+}
+
+.header_menu__nav {
+    grid-column-gap: 22px;
+}
+
+.header_menu__nav__item {
+
+}
+
+.header_menu__buttons {
+    margin-left: 27px;
+    grid-column-gap: 18px;
+}
+
+.header_menu__nav__item a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+    transition: .3s;
+}
+
+.header_menu__nav__item a:hover {
+    text-decoration: underline;
+
+}
+
+.header_menu__button__expert,
+.header_menu__button__login,
+.button_talk__to__us button,
+.third-screen_button,
+.sixth-screen_button button,
+.seventh-screen_right button {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding: 15px 25px;
+    cursor: pointer;
+    transition: background-color 500ms, color 500ms;
+}
+
+.header_menu__button__login {
+    color: #000000;
+    background-color: #FFF;
+}
+
+.header_menu__button__login:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.button_talk__to__us button,
+.header_menu__button__expert,
+.seventh-screen_right button {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.button_talk__to__us button:hover,
+.header_menu__button__expert:hover,
+.seventh-screen_right button:hover {
+    color: #000000;
+    background-color: #FFF;
+}
+
+
+.first_screen {
+    position: relative;
+    border-bottom: 2px solid #EAEEF2;
+}
+
+.first_screen__left {
+    max-width: 490px;
+    padding-top: 92px;
+}
+
+.first_screen__grid {
+    column-gap: 50px;
+}
+
+.first_screen__grid h1 {
+    font-weight: bold;
+    font-size: 77px;
+    line-height: 83px;
+    color: #000000;
+    margin-bottom: 27px;
+
+}
+
+.first_screen__left p,
+.sixth-screen p,
+.second-screen_right p,
+.get-started p {
+    font-size: 20px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.button_talk__to__us button {
+    font-size: 22px;
+    margin-top: 27px;
+}
+
+.button_talk__to__us h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.button_talk__to__us {
+    flex-direction: column;
+    position: absolute;
+    bottom: -30px;
+    left: 140px;
+}
+
+
+.mobile_menu__button {
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mobile_menu__button span {
+    height: 5px;
+    width: 80%;
+    background: grey;
+    display: block;
+    position: relative;
+}
+
+.mobile_menu__button span::before, .mobile_menu__button span::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: grey;
+    display: block;
+    position: absolute;
+}
+
+.mobile_menu__button span::before {
+    top: -10px;
+}
+
+.mobile_menu__button span::after {
+    bottom: -10px;
+}
+
+
+.second-screen {
+    padding: 144px 145px 171px 145px;
+    justify-content: space-between;
+}
+
+.second-screen_right {
+    max-width: 563px;
+    grid-column-gap: 33px;
+}
+
+.second-screen_right h2,
+.sixth-screen h2,
+.third-screen h2,
+.fourth-screen h2 {
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 58px;
+    color: #000000;
+
+}
+
+.second-screen_right p {
+    margin-right: 50px;
+    padding-top: 33px;
+
+}
+
+.third-screen {
+    display: flex;
+    flex-direction: column;
+    padding: 0 145px 0 145px;
+    height: 791px;
+    justify-content: space-around;
+    align-items: start;
+
+}
+
+.third-screen_contents {
+    grid-column-gap: 75px;
+    justify-content: space-between;
+}
+
+.third-screen_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: 295px;
+    height: 333px;
+}
+
+.third-screen h2, .fourth-screen h2 {
+    text-align: left;
+
+}
+
+.third-screen h3, .fourth-screen h3 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+
+}
+
+.third-screen p, .fourth-screen p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.third-screen_button,
+.sixth-screen_button button {
+    padding: 12px 30px;
+    background: #F7B2B7;
+    border: 1px solid #F7B2B7;
+}
+
+.third-screen_button:hover,
+.sixth-screen_button button:hover {
+
+    background: #a7353d;
+    border: 1px solid #a7353d;
+    color: #FFFFFF;
+}
+
+.fourth-screen {
+    background: #FDECED;
+    display: flex;
+    flex-direction: column;
+    padding: 0 260px 73px 145px;
+    /*justify-content: space-between;*/
+    align-items: center;
+}
+
+.fourth-screen h2 {
+    font-weight: normal;
+    padding-top: 88px;
+    padding-bottom: 82px;
+
+}
+
+.fourth-screen h3 {
+    max-width: 254px;
+}
+
+.fourth-screen p {
+    margin-right: 15px;
+}
+
+.fourth-screen_contents {
+    grid-column-gap: 54px;
+}
+
+.fourth-screen_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-column-gap: 54px;
+    align-items: start;
+    width: 308px;
+    height: 404px;
+}
+
+.fifth-screen {
+    height: 522px;
+    padding: 108px 260px 0 145px;
+    justify-content: space-between;
+    grid-column-gap: 137px;
+    align-items: start;
+
+}
+
+.fifth-screen p {
+    font-size: 27px;
+    line-height: 36px;
+    color: #000000;
+    width: 236px;
+    padding-top: 20px;
+}
+
+.fifth-screen_contents {
+    flex-wrap: wrap;
+    width: 700px;
+    justify-content: space-between;
+    grid-row-gap: 36px;
+}
+
+
+.sixth-screen {
+    height: 637px;
+    padding: 0 145px 0 145px;
+}
+
+.sixth-screen_left {
+    width: 564px;
+    height: 288px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sixth-screen_button {
+    padding-top: 20px;
+}
+
+.seventh-screen {
+    padding: 108px 145px;
+}
+
+.get-started {
+    height: 283px;
+    width: 1150px;
+    background: #8BD4D6;
+    border-radius: 10px;
+    padding: 0 90px;
+    justify-content: space-between;
+}
+
+.get-started h3 {
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 56px;
+    color: #000000;
+    padding-bottom: 18px;
+}
+
+.seventh-screen_right button {
+    padding: 12px 30px;
+
+}
+
+.footer {
+    position: relative;
+    flex-direction: column;
+    padding: 45px 145px 0 145px;
+    height: auto;
+    background: #302E3F;
+    grid-row-gap: 50px;
+}
+
+.footer .first {
+    grid-column-gap: 18px;
+    height: 55px;
+}
+
+.footer .second {
+    flex-wrap: wrap;
+    grid-row-gap: 110px;
+}
+
+.footer .third {
+    height: 70px;
+}
+
+.footer .second-content {
+    width: 230px;
+    height: 130px;
+}
+
+
+.footer h3 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.footer .second h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer .second-content p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.footer .second-content a {
+    color: #C5E9EA;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer .second-content a:hover,
+.footer .third a:hover {
+    text-decoration: underline;
+}
+
+.footer .third a {
+    margin-right: 27px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #C5E9EA;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.footer-img {
+    position: absolute;
+    right: 145px;
+    bottom: 50px;
+}
